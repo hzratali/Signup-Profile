@@ -1,0 +1,92 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.profile {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  margin: 30px 0px 0px 30px;
+}
+
+.header_wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 12px;
+}
+
+.signup_box {
+  gap: 12px;
+  display: flex;
+  margin-right: 22px;
+}
+
+form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  padding: 12px 12px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-bottom: 1px solid white;
+  margin: 12px 0px;
+  gap: 12px;
+}
+
+input:hover {
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+button {
+  padding: 12px;
+  margin: 25px 0px;
+  width: 100px;
+  font-size: 18px;
+}
+
+.box {
+  display: flex;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.box p {
+  font-size: 25px;
+  margin-left: 12px;
+  color: gray;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
